@@ -1,7 +1,7 @@
 # Customer Segmentation & Demographic Analysis Dashboard (Excel)
 > *Interactive Excel dashboard designed to analyze customer demographics, income levels, loyalty segments, occupations, and customer growth patterns to support customer-focused business decisions.*
 
-![Customer Segmentation Analysis Dashboard](visuals/Customer Segmentation.png)
+![Customer Segmentation Analysis Dashboard](visuals/Customer%20Segmentation.png)
 ---
 
 ## Table of Contents
