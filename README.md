@@ -1,5 +1,5 @@
-# Furniture Sales Performance Dashboard (Excel)
-> *Interactive Excel dashboard analyzing furniture sales performance across different regions in the United States to uncover trends in sales, profit, shipping, and customer segments for better business decision-making.*
+# Customer Segmentation & Demographic Analysis Dashboard (Excel)
+> *Interactive Excel dashboard designed to analyze customer demographics, income levels, loyalty segments, occupations, and customer growth patterns to support customer-focused business decisions.*
 
 ![Furniture Sales Dashboard](visuals/dashboard.png)
 ---
@@ -25,25 +25,28 @@
 ## 1. Project Overview
 
 **Context:** 
-This project was developed as part of a hands-on end-to-end Excel dashboard project focused on analyzing furniture sales data across multiple regions in the United States.
+This project focuses on analyzing customer data to better understand segmentation patterns, demographic distribution, income levels, loyalty, and growth trends.
 
 **Problem Statement:** 
-Businesses often struggle to quickly identify sales trends, profitable regions, top-performing categories, and shipping performance from large sales datasets.
+Businesses often struggle to understand the diverse needs of different customer groups, making it challenging to personalize marketing strategies and enhance customer retention.
 
 **Approach:**  
-Using Microsoft Excel, Power Query, Pivot Tables, Pivot Charts, and slicers, raw sales data was cleaned, transformed, analyzed, and visualized into an interactive dashboard.
+Using Excel, Power Query, Pivot Tables, and Pivot Charts, raw customer data was cleaned, transformed, and analyzed to build an interactive dashboard.
 
 **Outcome:**
-The final result is a dynamic sales performance dashboard that provides insights into revenue, profit, shipping methods, customer segments, and regional sales performance.
+A dynamic customer segmentation dashboard that provides insights into demographics, income distribution, loyalty behavior, occupation patterns, and customer growth trends.
 
 ---
 
 ## 2. Objectives
 
-- **Primary Objective:** Build an interactive Excel dashboard to analyze furniture sales performance across regions and customer segments.
-- **Secondary Objective 1:** Identify trends in sales, profit, and quantity sold over time.
-- **Secondary Objective 2:** Analyze shipping methods and delivery performance.
-- **Secondary Objective 3:** Visualize geographic and category-level sales performance.
+- **Primary Objective:** Build an interactive dashboard for customer segmentation analysis
+- **Secondary Objectives:**
+-Identify customer distribution by generation
+- Analyze income and wealth profiles
+- Evaluate customer loyalty and tenure groups
+- Understand occupational distribution
+- Track customer growth over time
 
 > 💡 *Every analysis and dashboard component in this project was designed to support these objectives.*
 
@@ -54,24 +57,13 @@ The final result is a dynamic sales performance dashboard that provides insights
 ### Scope
 
 -->
-
-| Dimension        | Details |
-|-----------------|---------|
-| **In Scope**     | Furniture sales data, sales trends, shipping analysis, customer segments, category performance, and regional analysis |
-| **Out of Scope** | Predictive modeling, customer demographics, and advanced statistical forecasting |
-| **Time Period**  | Historical sales transaction dataset used within the tutorial project |
-| **Granularity**  | Transaction-level sales records |
-
-### Tools & Technologies
-
-| Category        | Tool(s) Used |
-|----------------|-------------|
-| Data Storage    | Excel Workbook / CSV Dataset |
-| Data Processing | Microsoft Excel, Power Query |
-| Analysis        | Pivot Tables, Pivot Charts |
-| Visualization   | Microsoft Excel Dashboard |
-| Documentation   | Microsoft Excel / Excel Notes |
-| Other           | Slicers, Dynamic Titles |
+| Category | Tools |
+|----------|------|
+| Data Processing | Excel, Power Query |
+| Analysis | Pivot Tables, Pivot Charts |
+| Visualization | Excel Dashboard |
+| Interaction | Slicers |
+| Documentation | GitHub README |
 
 ---
 
@@ -94,7 +86,7 @@ furniture-sales-performance-dashboard/
 ## 5. Data Workflow
 
 ```
-Sales Dataset
+Raw customer data
       ↓
 Data Import into Excel
       ↓
@@ -106,13 +98,6 @@ Interactive Dashboard Development
       ↓
 Business Insights & Reporting
 ```
-
-1. **Source:** [Where did the data come from? Format, size, access method.]
-2. **Ingestion:** Dataset imported into Microsoft Excel.
-3. **Cleaning:** Removed duplicates, standardized formats, and handled inconsistent entries using Power Query.
-4. **Transformation:** Created calculated fields, KPIs, and summarized data for dashboard reporting.
-5. **Analysis:** Performed trend analysis, category analysis, shipping analysis, and regional comparisons using Pivot Tables and Charts
-6. **Output:** Interactive Excel dashboard with filters, KPIs, and visual reports.
 
 ---
 
@@ -128,32 +113,25 @@ Each row represents a single sales transaction, including customer, product, shi
 
 ## Data Structure
 
-| Field Name     | Data Type | Description | Example Value |
-|----------------|----------|-------------|---------------|
-| Order ID       | Text     | Unique identifier for each order | CA-2016-152156 |
-| Order Date     | Date     | Date the order was placed | 11/08/2016 |
-| Ship Date      | Date     | Date the order was shipped | 11/11/2016 |
-| Ship Mode      | Text     | Shipping method used | Second Class |
-| Customer ID    | Text     | Unique identifier for each customer | CG-12520 |
-| Customer Name  | Text     | Name of the customer | Claire Gute |
-| Segment        | Text     | Customer segment | Consumer |
-| Country        | Text     | Country of purchase | United States |
-| City           | Text     | Customer city | Henderson |
-| State          | Text     | Customer state | Kentucky |
-| Region         | Text     | Geographic region | South |
-| Product ID     | Text     | Unique product identifier | FUR-BO-10001798 |
-| Category       | Text     | Product category | Furniture |
-| Sub-Category   | Text     | Product sub-category | Bookcases |
-| Product Name   | Text     | Name of the product | Bush Somerset Collection Bookcase |
-| Sales          | Number   | Revenue generated from sale | 261.96 |
-| Quantity       | Number   | Number of units purchased | 2 |
-| Discount       | Number   | Discount applied to order | 0.00 |
-| Profit         | Number   | Profit generated from order | 41.91 |
-| Duration       | Text     | Shipping duration | 3 days |
-| Month          | Text     | Month of order | Nov |
+| Field Name        | Data Type | Description                          | Example Value |
+|------------------|----------|--------------------------------------|---------------|
+| CustomerID       | Text     | Unique customer ID                   | CUST-1001     |
+| Name             | Text     | Customer full name                   | Emily Davis   |
+| Gender           | Text     | Customer gender (Male/Female)       | Male          |
+| Age              | Number   | Age of the customer                  | 29            |
+| Generation       | Text     | Customer generation group            | Millennial    |
+| Region           | Text     | Customer location region             | East          |
+| Occupation       | Text     | Customer job role                    | Engineer      |
+| Income           | Number   | Annual income of customer            | 250000       |
+| Income Bracket   | Text     | Income category                      | Medium        |
+| Customer Segment | Text     | Type of customer segment             | Retail        |
+| Join_Date        | Date     | Customer registration date           | 2021-06-15    |
+| Tenure           | Number   | Years as a customer                  | 3             |
+| Tenure Group     | Text     | Customer loyalty category            | Loyal         |
+| Year             | Number   | Year the customer joined             | 2021          |   
 
-> **Row count (approx.):** 2122 rows
-> **Date range:** 01/06/2014 – 12/30/2017 
+> **Row count (approx.):** 2001 rows
+> **Date range:** 01/02/2015 – 12/30/2025
 
 ---
 
