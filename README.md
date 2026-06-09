@@ -145,32 +145,39 @@ Each row represents a single sales transaction, including customer, product, shi
 
 ### Analytical Approach
 
-This project uses exploratory data analysis (EDA) in Excel to examine furniture sales performance across regions, customer segments, product categories, and shipping methods. The goal is to identify trends, performance drivers, and business opportunities from transactional sales data.
+This project uses Exploratory Data Analysis (EDA) in Microsoft Excel to examine customer demographics, income distribution, loyalty patterns, and customer growth trends. The objective is to segment customers into meaningful groups and uncover insights that can support customer engagement, retention, and business decision-making.
 
-The analysis was carried out using Pivot Tables, Pivot Charts, and Excel formulas to summarize and visualize key business metrics.
+The analysis was conducted using Power Query for data cleaning and transformation, Pivot Tables for data aggregation, Pivot Charts for visualization, and Slicers for interactive filtering.
 
 
 ## Key Metrics Defined
 
 | Metric | Definition | Why It Matters |
 |--------|------------|----------------|
-| Total Sales | Total revenue generated from all furniture transactions | Measures overall business sales performance |
-| Total Profit | Total profit earned after discounts and sales | Measures profitability performance |
-| Total Quantity | Total number of products sold | Measures sales volume and customer demand |
-| YoY Growth | Percentage increase or decrease compared to the previous year | Tracks yearly business performance changes |
-| Shipping Duration | Number of days between order date and ship date | Evaluates delivery performance and shipping efficiency |
+| Total Customers | Total number of customers in the dataset | Measures the overall size of the customer base|
+| Average Age | Average age of all customers | Helps understand the demographic profile of customers |
+| Average Income | Average income across all customers| Indicates the overall purchasing power of the customer base |
+| Average Tenure | Average number of years customers have remained with the business | Measures customer retention and loyalty |
+| Generation Distribution | Distribution of customers across generations (Boomers, Gen X, Millennials, Gen Z) | Helps identify dominant age segments |
+| Wealth Profile | Distribution of customers across income brackets (Low, Medium, High) | Provides insight into customer economic segments |
+| Loyalty Segment | Classification of customers based on tenure groups (New, Emerging, Loyal, Legacy) | Evaluates customer loyalty and retention patterns |
+| Occupational Profile | Distribution of customers by occupation) | Helps understand the professional characteristics of customers |
+| Customer Growth Trend | Number of customers acquired over time | Tracks growth patterns and customer acquisition trends |
 
 ---
 ## Methods Used
 
 - Data cleaning and transformation using Power Query
-- KPI calculations for Sales, Profit, and Quantity
-- Pivot Tables for summarization and aggregation
-- Pivot Charts for monthly sales trend analysis
-- Geographic sales analysis using Excel Map visuals
-- Shipping mode and shipping duration analysis
-- Interactive filtering using Region and Segment slicers
-- Category and city-level sales comparison 
+- Date conversion and standardization
+- Creation of calculated fields and segmentation categories
+- Customer generation classification
+- Income bracket segmentation
+- Tenure group segmentation
+- KPI calculations for Customer Count, Average Age, Average Income, and Average Tenure
+- Pivot Tables for customer aggregation and analysis
+- Pivot Charts for trend and demographic visualization
+- Interactive filtering using Region and Customer Segment slicers
+- Dashboard design and visualization in Microsoft Excel
 
 ---
 
