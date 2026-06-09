@@ -40,13 +40,19 @@ A dynamic customer segmentation dashboard that provides insights into demographi
 
 ## 2. Objectives
 
-- **Primary Objective:** Build an interactive dashboard for customer segmentation analysis
-- **Secondary Objectives:**
--Identify customer distribution by generation
-- Analyze income and wealth profiles
-- Evaluate customer loyalty and tenure groups
-- Understand occupational distribution
-- Track customer growth over time
+### Primary Objective
+
+- Build an interactive Excel dashboard to analyze customer demographics, income levels, loyalty segments, and growth trends.
+
+### Secondary Objectives
+
+- Identify customer distribution across different generations.
+- Analyze customer income brackets and wealth profiles.
+- Evaluate customer loyalty using tenure-based segmentation.
+- Examine occupational distribution within the customer base.
+- Track customer acquisition and growth trends over time.
+- Compare customer demographics across regions and customer segments.
+- Transform raw customer data into actionable business insights through interactive visualizations.
 
 > 💡 *Every analysis and dashboard component in this project was designed to support these objectives.*
 
