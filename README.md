@@ -184,29 +184,29 @@ The analysis was conducted using Power Query for data cleaning and transformatio
 
 ## 8. Key Insights
 
-### Insight 1: California Recorded the Highest Sales Performance
+### Insight 1: Millennials Represent the Largest Customer Segment
 
-The dashboard shows that California generated the highest sales contribution among all states, indicating stronger customer demand and higher transaction activity compared to other regions.
+Generation analysis shows that Millennials make up the largest share of the customer base, with 273 females and 269 males, totaling 542 customers (27.1% of the 2,000 customers). This indicates that the business has a strong customer presence within this age group.
 
-### Insight 2: Chairs Were the Best-Performing Furniture Category
+### Insight 2: Low-Income Customers Dominate the Customer Base
 
-Among all furniture sub-categories, Chairs generated the highest sales revenue, making it the strongest-performing product category in the dataset.
+The wealth profile analysis indicates that a large proportion of customers are within the low-income segment, suggesting that this income group forms a key part of the bank’s customer base.
 
-### Insight 3: Standard Class Was the Most Frequently Used Shipping Method
+### Insight 3: Loyal Customers Form a Significant Portion of the Customer Base
 
-Most customer orders were shipped using Standard Class delivery, suggesting a preference for more cost-effective shipping options over faster premium methods.
+Tenure analysis indicates that a significant proportion of customers fall within the Loyal segment, representing 39.35% of the 2,000 customers. This highlights strong customer retention and long-term engagement.
 
-### Insight 4: Most Orders Were Delivered Within 4–5 Days
+### Insight 4: Professional and Business-Oriented Occupations Are Well Represented
 
-Shipping duration analysis revealed that the majority of orders were delivered within 4 to 5 days, showing relatively stable delivery performance across transactions.
+Occupation analysis shows a fairly even distribution across key professional groups, with retired customers (307), teachers (303), doctors (290), students (289), engineers (288), bankers (262), and traders (261) each contributing a significant share of the customer base. This presents opportunities for targeted marketing and tailored customer engagement strategies across segments.
 
-### Insight 5: Sales Increased Significantly Toward Year-End
+### Insight 5: Customer Acquisition Shows Fluctuating Trends Over Time
 
-Monthly sales trends show stronger sales performance during November and December, suggesting possible seasonal demand increases during the end of the year.
+The customer growth trend shows fluctuations over the years, with no consistent upward progression. Customer numbers peaked in 2016 (200 customers), 2019 (212 customers), and 2021 (211 customers), but generally remained within a relatively stable range between 155 and 212 customers, indicating variable acquisition patterns rather than steady growth.
 
-### Insight 6: Consumer Customers Contributed the Largest Share of Sales
+### Insight 6: Customer Demographics Vary Across Regions
 
-The Consumer segment generated the highest overall sales contribution compared to Corporate and Home Office segments, showing that individual customers drove most of the revenue.
+Regional analysis reveals differences in customer demographics, income levels, and loyalty patterns, suggesting that customer behavior varies by location.
 
 ---
 
